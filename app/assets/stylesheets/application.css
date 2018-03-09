@@ -14,6 +14,66 @@
  *= require_self
  */
 
-.title-box {
-	
+h1, h2, p, table, label, th, a {
+	font-family: serif;
 }
+
+a {
+color: #191970;
+}
+a:hover {
+	color: #B22222;
+}
+body {
+	margin: 0 0 0 30px;
+}
+
+
+h1 {
+	font-size: 2em;
+	margin: 20px 0 0 0px;
+}
+h2 {
+	font-size: 20px;
+	margin: 15px 0px 0px 0px;
+}
+
+label{
+	font-size: 1em;
+}
+
+input {
+	display: block;
+/*	margin: 10px 0 10px 0;
+*/}
+
+p {
+margin: 25px 0 30px 30px;
+}
+strong {
+	font-size: 14px;
+}
+table {
+	margin: 10px 0 0 0px;
+}
+td {
+	padding-right: 1em;
+}
+.field {
+	margin-bottom: 10px;
+}
+.show-box {
+	margin : 30px 0 0 0;
+}
+.link-box {
+	margin-top: 5px;
+}
+.link-box1 {
+	margin-left: 30px;
+}
+
+
+
+
+
+
