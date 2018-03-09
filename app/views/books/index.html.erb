@@ -5,16 +5,14 @@
 <table>
 	<thead>
   <tr>
-    <th>タイトル</th>
-    <th>内容</th>
+    <th>Title</th>
+    <th>Body</th>
     <th></th>
-   
   </tr>
 </thead>
 
    <tbody>
   <% @books.each do |book| %>
-  
     <tr>
       <td><%= book.title %></td>
       <td><%= book.body %></td>
